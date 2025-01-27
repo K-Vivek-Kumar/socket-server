@@ -10,9 +10,7 @@
 #include <unistd.h>
 #include <cstring>
 
-#define EXPOSED_PORT 8080
-#define MSG_BUFFER_SIZE 1024
-#define SERVER_IP_ADDRESS "127.0.0.1"
+#include "client_config.h"
 
 void handleServerResponse(int clientSocketId)
 {

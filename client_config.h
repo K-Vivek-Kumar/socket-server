@@ -1,0 +1,8 @@
+#ifndef CLIENT_CONFIG_H
+#define CLIENT_CONFIG_H
+
+#define EXPOSED_PORT 8080
+#define MSG_BUFFER_SIZE 1024
+#define SERVER_IP_ADDRESS "127.0.0.1"
+
+#endif // CLIENT_CONFIG_H
