@@ -1,0 +1,11 @@
+#ifndef SERVER_CONFIG_H
+#define SERVER_CONFIG_H
+
+#define EXPOSED_PORT 8080
+#define MSG_BUFFER_SIZE 1024
+#define MAX_USERNAME_SIZE 20
+#define MAX_USERS 10
+#define MAX_USER_SOCKETS 2
+#define IP_ADDRESS "127.0.0.1"
+
+#endif // SERVER_CONFIG_H
